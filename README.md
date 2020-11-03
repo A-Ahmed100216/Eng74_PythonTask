@@ -22,7 +22,7 @@ This will ensure any unnecessary libraries will be ignored.
 ## Task 
 The task is to gather user data for a Sparta application form. Make sure to implement skills and tools learnt yesterday i.e. concatenation, string methods, inputs etc. 
 1. Create a python file. 
-2. Gather all the user details using the input method. This will include their full name, address, date of birth, age etc.
+2. Gather all the user details using the input method. This will include their full name, address, date of birth, age, NI number, the course they applied for, and most recent education. 
 3. Ensure data such as age and house number are restricted to return an integer.
 4. Concatenate the first, middle and last name to get a full name.
 5. Likewise, concatenate the house number, street name and postcode to get the address.
