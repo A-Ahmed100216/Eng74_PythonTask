@@ -2,14 +2,16 @@
 first_name = input("Please enter your first name: ")
 middle_name = input("Please enter your middle name: ")
 last_name = input("Please enter your last name: ")
-# Now we have the seperate inputs, we can concatenate.
+# Now we have the separate inputs, we can concatenate.
 # We then use the capitalize method to ensure each name begins with a capital letter.
 # Use casting to ensure the data type is a string. This is optional as the inputs will always be strings unless we exlicitly convert to another format.
 full_name = str(first_name.capitalize() + " " + middle_name.capitalize() + " " + last_name.capitalize())
+
 # We repeat this process for the address
 house_number = int(input("Please enter your house number: ")) # house number will always be an integer.
 street = input("Please enter your street name: ")
 postcode = input("Please enter your postcode: ")
+# We concatenate the address parameters, ensuing to capitalise the street and use upper method to convert all postcode characters into upper case.
 address = str(house_number) + " " + street.capitalize() + ", " + postcode.upper()
 
 # The following parameters require simple inputs
